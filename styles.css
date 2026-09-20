@@ -1,15 +1,42 @@
-h1{
-    color: hsl(11, 100%, 60%);
+body{
+    font-family: 'Gill Sans', Arial, sans-serif;
 }
 
-.boks1{
-    background-color: cadetblue;
+h1{
+    color: hsl(11, 100%, 60%);
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
 }
+
+.rem{
+    font-size: 2rem;
+}
+
+.lineheight{
+    line-height: 1.6;
+}
+
+a{
+    text-decoration: none;
+}
+
+.boks1{ 
+    background-color: cadetblue;
+    opacity: 0.5;
+}
+/* rgba/hsla ser ut til å bare endre bakgrunnsfargen på boksen
+mens opacity endrer alt sammmen i hele boksen */
 
 .boks2{
     background-color: #FF5733;
+    background-image: url("https://picsum.photos/400/200");
+    background-size: contain;
 }
+/* cover ser ut til å strekke ut bildet slik at den tilpasser nettleseren
+mens contain kopierer det samme bildet for å dekke bakgrunnen */
 
 .boks3{
     background-color: rgb(255, 0, 34);
+    text-transform: uppercase;
 }
