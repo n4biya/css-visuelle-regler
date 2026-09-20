@@ -1,0 +1,15 @@
+h1{
+    color: hsl(11, 100%, 60%);
+}
+
+.boks1{
+    background-color: cadetblue;
+}
+
+.boks2{
+    background-color: #FF5733;
+}
+
+.boks3{
+    background-color: rgb(255, 0, 34);
+}
